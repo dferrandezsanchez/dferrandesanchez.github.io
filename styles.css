@@ -3,7 +3,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #181C14;
+    color: #fff;
 }
 
 header {
@@ -18,14 +19,15 @@ h1 {
 }
 
 h2 {
-    color: #333;
+    color: #fff;
+    text-align: center
 }
 
 .project {
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid #ddd;
-    background-color: #fff;
+    border: 1px solid #697565;
+    background-color: #3C3D37;
 }
 
 footer {
@@ -37,6 +39,10 @@ footer {
 
 .avatar-user {
     border-radius: 50% !important;
+}
+
+.body-section{
+    margin: 2rem;
 }
 
 @media (max-width: 600px) {
